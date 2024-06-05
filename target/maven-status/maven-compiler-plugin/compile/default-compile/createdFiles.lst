@@ -1,0 +1,4 @@
+com\rainhard\prac\pojo\Inventory.class
+com\rainhard\prac\App.class
+com\rainhard\prac\pojo\Placement.class
+com\rainhard\prac\service\ReadJsonService.class
