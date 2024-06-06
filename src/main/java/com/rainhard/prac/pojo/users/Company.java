@@ -14,4 +14,13 @@ public class Company {
     public void setCatchPhrase(String catchPhrase) { this.catchPhrase = catchPhrase; }
     public String getBs() { return bs; }
     public void setBs(String bs) { this.bs = bs; }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "name='" + name + '\'' +
+                ", catchPhrase='" + catchPhrase + '\'' +
+                ", bs='" + bs + '\'' +
+                '}';
+    }
 }
