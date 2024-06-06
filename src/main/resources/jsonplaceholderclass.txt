@@ -1,0 +1,34 @@
+{
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  }
+
+class that should be created: 
+1. User.java
+2. Address.java
+3. Geo.java
+4. Company.java
+
+DESERIALIZATION:
+json = string mentah
+User user = objectMapper.readValue(source, User.class); membuat json yang sebelumnya String mentah
+menjadi object user.

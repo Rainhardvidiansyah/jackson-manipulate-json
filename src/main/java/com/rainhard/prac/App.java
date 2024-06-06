@@ -1,17 +1,22 @@
 package com.rainhard.prac;
 
+import com.rainhard.prac.service.HttpClientService;
 import com.rainhard.prac.service.ReadJsonService;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 
 
 public class App {
-    public static void main( String[] args ) throws IOException {
+    public static void main( String[] args ) throws IOException, URISyntaxException {
         ReadJsonService readJsonService = new ReadJsonService();
         //readJsonService.findItemsById(3);
         //readJsonService.findAllItemsWithBrownColor();
         readJsonService.findDataByTag("brown");
         readJsonService.findDataByFurniture("furniture");
+
+        HttpClientService httpClientService = new HttpClientService();
+        httpClientService.getAllUsers();
     }
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rainhard.prac.service.ReadJsonServiceTest" time="0.831" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rainhard.prac.service.ReadJsonServiceTest" time="0.814" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire13153437444142945731\surefirebooter13811355124079449002.jar C:\Users\lenovo\AppData\Local\Temp\surefire13153437444142945731 2024-06-04T02-59-51_872-jvmRun1 surefire12208592040755439021tmp surefire_03154356637500944094tmp"/>
+    <property name="sun.java.command" value="C:\Users\lenovo\AppData\Local\Temp\surefire802219697867893311\surefirebooter9041442374004199695.jar C:\Users\lenovo\AppData\Local\Temp\surefire802219697867893311 2024-06-06T21-15-42_494-jvmRun1 surefire5572777571368514962tmp surefire_016263463504982019344tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\lenovo\Documents\java lagi\rainhard-json\target\test-classes;C:\Users\lenovo\Documents\java lagi\rainhard-json\target\classes;C:\Users\lenovo\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\lenovo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\lenovo\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\lenovo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\lenovo\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\lenovo\.m2\repository\org\mockito\mockito-junit-jupiter\3.6.0\mockito-junit-jupiter-3.6.0.jar;C:\Users\lenovo\.m2\repository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\lenovo\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\lenovo\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\lenovo\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire13153437444142945731\surefirebooter13811355124079449002.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lenovo\AppData\Local\Temp\surefire802219697867893311\surefirebooter9041442374004199695.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="printFirstTest" classname="com.rainhard.prac.service.ReadJsonServiceTest" time="0.83"/>
+  <testcase name="printFirstTest" classname="com.rainhard.prac.service.ReadJsonServiceTest" time="0.811"/>
 </testsuite>
