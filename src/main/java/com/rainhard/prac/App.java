@@ -1,10 +1,12 @@
 package com.rainhard.prac;
 
+import com.rainhard.prac.pojo.users.User;
 import com.rainhard.prac.service.HttpClientService;
 import com.rainhard.prac.service.ReadJsonService;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.Optional;
 
 
 public class App {
@@ -16,7 +18,12 @@ public class App {
         readJsonService.findDataByFurniture("furniture");
 
         HttpClientService httpClientService = new HttpClientService();
-        httpClientService.getAllUsers();
+        //httpClientService.getAllUsers();
+        //httpClientService.getUserById();
+        //System.out.println(httpClientService.findAllUser());
+        Optional<User> user = httpClientService.findUserByName("Leanne Graham");
+        user.ifPresent(System.out::println);
+
     }
 
 }
